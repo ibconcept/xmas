@@ -3,14 +3,28 @@
 <head>
   <title>Simple SVG Confetti</title>
   <style>
-    body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f0f0f0;
-    }
+  /* Existing styles for desktop view */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Media query for phone viewport */
+@media (max-width: 767px) {
+  body {
+    justify-content: flex-start; /* Adjust alignment for smaller screens */
+  }
+  
+  #confetti-container {
+    width: 100%; /* Make SVG container full width */
+    height: 50vh; /* Adjust the height as needed */
+  }
+}
+
   </style>
 </head>
 <body>
