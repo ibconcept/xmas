@@ -54,3 +54,46 @@ div {
 display: inline-block;
 align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  width: 13%;
+  margin: 2%;
+  display: inline-block;
+  animation: flicker 2s infinite; /* Adjust the duration as needed */
+}
