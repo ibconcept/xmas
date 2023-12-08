@@ -1,11 +1,30 @@
 body {
-    margin: 3%;
-    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display:  flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    align-items: center; 
     background-color: #f0f0f0;
+    text-align: center;
+    color: rgb(15, 15, 102);
+  }
+  
+  #confetti-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* Set the desired z-index value */
+  }
+
+  h1{ 
+    
+    font-weight: 900; 
+  
   }
   
   /* Media query for phone viewport */
@@ -25,12 +44,13 @@ body {
 
 .logo{
 
-width: 5%;
+width:13%;
 margin: 2%;
 display: inline-block;
+
 }
+
 div {
-
-
-
+display: inline-block;
+align-items: center;
 }
