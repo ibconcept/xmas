@@ -29,7 +29,8 @@ body {
       justify-content: flex-start; /* Adjust alignment for smaller screens */
     }
     div {
-
+      
+display: flex;
 width: 90%;
 
     }
