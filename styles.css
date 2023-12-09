@@ -1,5 +1,5 @@
 body {
-    margin-top: 8%; 
+    margin-top: 5%; 
     margin-left: 8%;
     margin-right: 8%;
     display:  flex;
@@ -42,13 +42,30 @@ width: 90%;
 
 
 
-.logo{
+.logo {
 
 width:13%;
 margin: 2%;
+position: relative;
+display: flex;
+cursor: pointer; 
 display: inline-block;
+animation: flicker 2s infinite; /* Adjust the duration as needed */
 
 }
+
+.logo:hover {
+  cursor: help; /* Change cursor to a help icon */
+  content: "Merry"; /* Display "Merry" on hover */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 16px;
+  list-style-type: none; /* Remove the point */
+}
+
 
 div {
 display: inline-block;
@@ -57,11 +74,19 @@ align-items: center;
 
 
 
-
-
-
-
-
+/* Center the message */
+#messagePopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Change the value if necessary */ 
+}
+ 
 
 
 
@@ -91,9 +116,4 @@ align-items: center;
   }
 }
 
-.logo {
-  width: 13%;
-  margin: 2%;
-  display: inline-block;
-  animation: flicker 2s infinite; /* Adjust the duration as needed */
-}
+ 

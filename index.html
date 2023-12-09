@@ -3,7 +3,12 @@
 <head>
   <title>Simple SVG Confetti</title>
   <link rel="stylesheet" href="styles.css"> 
+  <meta charset="UTF-8">
+  <meta name="author" content="William Maina - IBConcept">
+
 </head>
+
+
 <body>
   <audio id="christmasAudio" autoplay loop>
     <source src="song.mp3" type="audio/mp3">
@@ -22,9 +27,12 @@
 
 <div style="display: block;"> <i style="font-weight: 800; " >  Click/Pick  Gift  </i></div>
    
-<div class="img">
+
+<div id="messagePopup" onclick="hideMessagePopup()"></div>
+
+<div>
   <h2>After a long #dohardthing ALX journey</h2> 
-  <h1>Choose 1 gift for this festive season </h1> 
+  <h1>Choose 1 gift for this festive season </h1>   
    <img src="gift1.PNG" alt="gift1" class="logo">
    <img src="gift2.PNG" alt="gift2" class="logo">
    <img src="gift3.PNG" alt="gift3" class="logo"><br>
@@ -36,10 +44,12 @@
    <img src="gift9.PNG" alt="gift9" class="logo"> 
  </div>
 
+ 
+ <script src="script.js"></script>
+
 
 <svg id="confetti-container"  ></svg>
 <script src="confetti.js"></script>
-
 
 </body>
 </html>
