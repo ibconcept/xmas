@@ -1,9 +1,6 @@
 body {
-    margin-top: 5%; 
-    margin-left: 8%;
-    margin-right: 8%;
-    padding: 0;
-    display:  flex;
+    
+    display:  flex; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center; 
     align-content: center;
@@ -27,13 +24,14 @@ body {
 /* Styles for PC screens */
 @media (min-width: 768px) {
   body {
-    margin: 0;
+    margin: 8%;
   }
 }
 
 /* Styles for screens with a maximum width of 767px (phones) */
 @media (max-width: 767px) {
   body {
+    margin: 13%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -47,7 +45,7 @@ body {
 }
 
 .logo {
-  z-index: 1; /* Set the desired z-index value */
+ z-index: 1; /* Set the desired z-index value */
 width:13%;
 margin: 2%;
 position: relative;
