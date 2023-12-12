@@ -27,6 +27,6 @@ Additional Information
 Responsiveness: The site is designed to be responsive and should adapt to different screen sizes.
 Customization: Feel free to customize the design, messages, or add more features to enhance the experience.
 Credits
-This project was created with love for the ALX Fraternity by William Maina and Esther M.
+This project was created with love for the ALX Fraternity by William Maina 
 License
 This project is licensed under the [License Name, e.g., MIT License]. See the LICENSE file for details.
