@@ -5,6 +5,8 @@ body {
     align-items: center; 
     align-content: center;
     background-color: #f0f0f0;
+    margin: 0;
+  overflow: hidden;
     text-align: center;
     color: rgb(15, 15, 102);
   }
