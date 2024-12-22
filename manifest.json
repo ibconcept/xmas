@@ -1,0 +1,21 @@
+{
+  "name": "Xmas App",
+  "short_name": "Xmas",
+  "start_url": "/xmas/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff0000",
+  "description": "Celebrate Christmas with our simple festive app.",
+  "icons": [
+    {
+      "src": "/xmas/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/xmas/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
