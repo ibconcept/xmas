@@ -12,21 +12,19 @@
 <body>
   
 
-  <audio id="christmasAudio">
-    <source src="song.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-  
-  <script>
-    // Get the audio element
-    var audio = document.getElementById("christmasAudio");
-  
-    // Play the audio
+<audio id="christmasAudio" loop>
+  <source src="song.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  // Play audio on user interaction
+  window.addEventListener("click", function() {
+    const audio = document.getElementById("christmasAudio");
     audio.play();
-  
-    // Enable looping
-    audio.loop = true;
-  </script>
+  }, { once: true }); // Ensures the event triggers only once
+</script>
+
 
   
   <div>
